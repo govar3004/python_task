@@ -47,7 +47,6 @@ class time_worked(empolyee):
      def salary (self):
           return self.time*150
 amount=time_worked("raja",6)
-#print("name=",time_worked())
 print("salary of ",amount.name,"=",amount.salary())     
      
      
